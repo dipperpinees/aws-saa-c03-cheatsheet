@@ -91,6 +91,4 @@ services/
   aurora/
     README.md
     aurora-multi-az/README.md
-docs/
-  conversion-report.md
 ``
