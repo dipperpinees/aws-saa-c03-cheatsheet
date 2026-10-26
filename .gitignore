@@ -1,0 +1,7 @@
+/Private & Shared/
+/*.zip
+.DS_Store
+.work/
+.venv/
+__pycache__/
+*.pyc
