@@ -2,8 +2,6 @@
 
 English study notes organized by AWS service and architecture topic. Each folder contains its core concepts, comparisons, limitations, and practical notes.
 
-Practice-question insights are integrated into the relevant notes. Repeated concepts and quiz answer choices have been removed; useful illustrations remain beside their English explanations.
-
 ## Browse the notes
 
 | Service or topic | Subtopics |
@@ -95,24 +93,4 @@ services/
     aurora-multi-az/README.md
 docs/
   conversion-report.md
-```
-
-Illustrations live in each service's `assets/` folder. Open any README directly on GitHub or in a Markdown viewer; no build or installation is required.
-
-## Source and conversion
-
-The collection was converted from a Notion HTML export into 72 service/topic folders and two nested topic pages. All 98 source HTML pages and 214 local source images are accounted for in the [conversion report](docs/conversion-report.md). Three externally hosted source illustrations are also preserved locally.
-
-The notes preserve source-derived study knowledge. Some source examples, limits, pricing figures, and service availability are historical; this conversion is not a comprehensive check against current AWS documentation. Specific ambiguities are listed in the conversion report. Original third-party illustrations remain attributed through their source references in that report.
-
-## Upload to GitHub
-
-The repository is initialized locally and the original HTML export and ZIP are excluded by `.gitignore`. Create an empty GitHub repository, then run the following from this folder, replacing the URL with your repository's URL:
-
-```bash
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/saa-cheat-sheet.git
-git push -u origin main
-```
-
-No license has been selected for this repository. Source attributions and notices in the converted material are retained where present.
+``
